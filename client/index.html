@@ -18,12 +18,19 @@
                 <div class="jumbotron-contents">
                     <h1>MicroDB</h1>
                     <p>
+                        <strong>file:</strong> testdata.json<br/>
+                        <strong>query:</strong> $..book[0]?price>=20 <br/>
+
+                        More query examples in: <a href="https://github.com/PencilCode/jsonql/blob/master/test/test.js#L49"> jsonql test.js </a>
+                    </p>
+
+                    <p>
                     <div class="row">
                         <div class="col-sm-4">
-                    		<input id="file" class="form-control" type="text" placeholder="file.json"/>
+                    		<input id="file" class="form-control" type="text" placeholder="file.json" value="testdata.json"/>
                         </div>
                         <div class="col-sm-4">                            
-                            <input id="query" class="form-control" type="text" placeholder="query"/>
+                            <input id="query" class="form-control" type="text" placeholder="query" value="$..book[0]?price>=20"/>
                         </div>
                     </div>
                     </p>
@@ -35,7 +42,9 @@
                     <p id="results"></p>
                 </div>
             </div>
+            <a class="author pull-right" href="http://rsiwady29.github.io/">Created by Richard Siwady </a>
         </div>
+
 
         <div class="col-sm-3 col-md-3 col-lg-3"></div>
     </div>

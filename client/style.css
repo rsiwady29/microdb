@@ -2,3 +2,9 @@ body{
     background-color: rgb(241, 242, 246);
     padding: 30px 30px;
 }
+
+.author{
+	color:#ccc !important;
+	font-size: 12px;
+	text-decoration: none;
+}
