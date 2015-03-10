@@ -1,0 +1,13 @@
+{
+  "name": "microdb",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.9.5",
+    "gzippo": "^0.2.0",
+    "morgan": "~1.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
