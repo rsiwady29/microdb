@@ -7,6 +7,9 @@ var fs 		= require('fs');
 var app     = express();
 var port    = process.env.PORT || 8080;
 
+app.use(morgan({ format: 'dev', immediate: true }));
+app.use(gzippo.staticGzip("" + __dirname + "/client"));
+
 // API
 app.get(/s+/, function(req, res) {
 	var fileName = req._parsedUrl.pathname;
